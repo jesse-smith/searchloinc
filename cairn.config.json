@@ -1,0 +1,19 @@
+{
+  "constitution": "CAIRN.md",
+  "plansDir": "plans",
+  "quickLane": "quick-lane.md",
+  "structuredPaths": ["searchloinc/**"],
+  "verify": {
+    "commands": [
+      "uv run ruff check searchloinc",
+      "uv run pytest"
+    ]
+  },
+  "accept": {
+    "artifacts": [],
+    "checklist": [
+      "Feature behaves as described in the plan's Acceptance criteria",
+      "No regression in existing behavior"
+    ]
+  }
+}

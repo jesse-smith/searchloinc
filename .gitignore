@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# uv
+# (uv.lock IS committed; the venv is not)
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# Tooling caches
+.ruff_cache/
+.pytest_cache/
+.mypy_cache/
+
+# Claude local overrides
+CLAUDE.local.md
+
+# cairn local state (plans/ IS committed; .cairn/ is not)
+.cairn/
+
+# OS
+.DS_Store
