@@ -1,0 +1,1368 @@
+{
+    "ResponseSummary": {
+        "RecordsFound": 242,
+        "StartingOffset": 0,
+        "RowsReturned": 5,
+        "LoincVersion": "2.82",
+        "Copyright": "Copyright \u00a9 2026 Regenstrief Institute, Inc. All Rights Reserved.",
+        "QueryUrl": "https://loinc.regenstrief.org/searchapi/groups?query=glucose&rows=5&includefiltercounts=true",
+        "Next": "https://loinc.regenstrief.org/searchapi/groups?query=glucose&rows=5&includefiltercounts=true&offset=5",
+        "QueryExecutionTime": "2026-07-07T13:01:46.0420205-04:00",
+        "QueryDuration": 0.0203886
+    },
+    "Results": [
+        {
+            "ParentGroupId": "LG55-6",
+            "ParentGroup": "MassMolConc<SAME:Comp|Tm|Sys|Meth><Prop:MCncORSCncORMSCnc>",
+            "GroupId": "LG50558-2",
+            "Group": "Glucose^10M post dose glucose|Pt|Ser/Plas",
+            "Archetype": null,
+            "STATUS": "Active",
+            "VersionFirstReleased": null,
+            "UsageNotes": null,
+            "MolecularWeightOfAnalyte": "180.156",
+            "Category": "Mass-Molar conversion",
+            "Loincs": [
+                {
+                    "LoincNumber": "32359-2",
+                    "LongCommonName": "Glucose [Moles/volume] in Serum or Plasma --10 minutes post dose glucose"
+                },
+                {
+                    "LoincNumber": "48984-9",
+                    "LongCommonName": "Glucose [Mass/volume] in Serum or Plasma --10 minutes post dose glucose"
+                }
+            ],
+            "Link": "https://loinc.org/LG50558-2"
+        },
+        {
+            "ParentGroupId": "LG55-6",
+            "ParentGroup": "MassMolConc<SAME:Comp|Tm|Sys|Meth><Prop:MCncORSCncORMSCnc>",
+            "GroupId": "LG50584-8",
+            "Group": "Glucose^3.5H post dose glucose|Pt|Ser/Plas",
+            "Archetype": null,
+            "STATUS": "Active",
+            "VersionFirstReleased": null,
+            "UsageNotes": null,
+            "MolecularWeightOfAnalyte": "180.156",
+            "Category": "Mass-Molar conversion",
+            "Loincs": [
+                {
+                    "LoincNumber": "25669-3",
+                    "LongCommonName": "Glucose [Moles/volume] in Serum or Plasma --3.5 hours post dose glucose"
+                },
+                {
+                    "LoincNumber": "26555-3",
+                    "LongCommonName": "Glucose [Mass/volume] in Serum or Plasma --3.5 hours post dose glucose"
+                }
+            ],
+            "Link": "https://loinc.org/LG50584-8"
+        },
+        {
+            "ParentGroupId": "LG55-6",
+            "ParentGroup": "MassMolConc<SAME:Comp|Tm|Sys|Meth><Prop:MCncORSCncORMSCnc>",
+            "GroupId": "LG50585-5",
+            "Group": "Glucose^30M post dose glucose|Pt|Ser/Plas",
+            "Archetype": null,
+            "STATUS": "Active",
+            "VersionFirstReleased": null,
+            "UsageNotes": null,
+            "MolecularWeightOfAnalyte": "180.156",
+            "Category": "Mass-Molar conversion",
+            "Loincs": [
+                {
+                    "LoincNumber": "14763-7",
+                    "LongCommonName": "Glucose [Moles/volume] in Serum or Plasma --30 minutes post dose glucose"
+                },
+                {
+                    "LoincNumber": "20439-6",
+                    "LongCommonName": "Glucose [Mass/volume] in Serum or Plasma --30 minutes post dose glucose"
+                }
+            ],
+            "Link": "https://loinc.org/LG50585-5"
+        },
+        {
+            "ParentGroupId": "LG55-6",
+            "ParentGroup": "MassMolConc<SAME:Comp|Tm|Sys|Meth><Prop:MCncORSCncORMSCnc>",
+            "GroupId": "LG50590-5",
+            "Group": "Glucose^4H post dose glucose|Pt|Ser/Plas",
+            "Archetype": null,
+            "STATUS": "Active",
+            "VersionFirstReleased": null,
+            "UsageNotes": null,
+            "MolecularWeightOfAnalyte": "180.156",
+            "Category": "Mass-Molar conversion",
+            "Loincs": [
+                {
+                    "LoincNumber": "14766-0",
+                    "LongCommonName": "Glucose [Moles/volume] in Serum or Plasma --4 hours post dose glucose"
+                },
+                {
+                    "LoincNumber": "26541-3",
+                    "LongCommonName": "Glucose [Mass/volume] in Serum or Plasma --4 hours post dose glucose"
+                }
+            ],
+            "Link": "https://loinc.org/LG50590-5"
+        },
+        {
+            "ParentGroupId": "LG55-6",
+            "ParentGroup": "MassMolConc<SAME:Comp|Tm|Sys|Meth><Prop:MCncORSCncORMSCnc>",
+            "GroupId": "LG50603-6",
+            "Group": "Glucose^20M post dose glucose|Pt|Ser/Plas",
+            "Archetype": null,
+            "STATUS": "Active",
+            "VersionFirstReleased": null,
+            "UsageNotes": null,
+            "MolecularWeightOfAnalyte": "180.156",
+            "Category": "Mass-Molar conversion",
+            "Loincs": [
+                {
+                    "LoincNumber": "30263-8",
+                    "LongCommonName": "Glucose [Moles/volume] in Serum or Plasma --20 minutes post dose glucose"
+                },
+                {
+                    "LoincNumber": "48985-6",
+                    "LongCommonName": "Glucose [Mass/volume] in Serum or Plasma --20 minutes post dose glucose"
+                }
+            ],
+            "Link": "https://loinc.org/LG50603-6"
+        }
+    ],
+    "FilterCounts": {
+        "Name": [
+            {
+                "Label": "Bordetella pertussis+parapertussis+bronchiseptica gidA gene|PrThr|Sys:ANYResp",
+                "Search": "=name:\"Bordetella pertussis\\+parapertussis\\+bronchiseptica gidA gene|PrThr|Sys\\:ANYResp\"",
+                "Count": 1
+            },
+            {
+                "Label": "C peptide^1.5H post dose glucose|Pt|Ser/Plas",
+                "Search": "=name:\"C peptide\\^1.5H post dose glucose|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "C peptide^15M post dose glucose|Pt|Ser/Plas",
+                "Search": "=name:\"C peptide\\^15M post dose glucose|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "C peptide^1H post dose glucose|Pt|Ser/Plas",
+                "Search": "=name:\"C peptide\\^1H post dose glucose|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "C peptide^2.5H post dose glucose|Pt|Ser/Plas",
+                "Search": "=name:\"C peptide\\^2.5H post dose glucose|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "C peptide^2H post dose glucose|Pt|Ser/Plas",
+                "Search": "=name:\"C peptide\\^2H post dose glucose|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "C peptide^3.5H post dose glucose|Pt|Ser/Plas",
+                "Search": "=name:\"C peptide\\^3.5H post dose glucose|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "C peptide^30M post dose glucose|Pt|Ser/Plas",
+                "Search": "=name:\"C peptide\\^30M post dose glucose|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "C peptide^3H post dose glucose|Pt|Ser/Plas",
+                "Search": "=name:\"C peptide\\^3H post dose glucose|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "C peptide^4.5H post dose glucose|Pt|Ser/Plas",
+                "Search": "=name:\"C peptide\\^4.5H post dose glucose|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "C peptide^45M post dose glucose|Pt|Ser/Plas",
+                "Search": "=name:\"C peptide\\^45M post dose glucose|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "C peptide^4H post dose glucose|Pt|Ser/Plas",
+                "Search": "=name:\"C peptide\\^4H post dose glucose|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "C peptide^5H post dose glucose|Pt|Ser/Plas",
+                "Search": "=name:\"C peptide\\^5H post dose glucose|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "C peptide^pre dose glucose|Pt|Ser/Plas",
+                "Search": "=name:\"C peptide\\^pre dose glucose|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Corticotropin^1.5H post dose glucose|Pt|Plas",
+                "Search": "=name:\"Corticotropin\\^1.5H post dose glucose|Pt|Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Corticotropin^1H post dose glucose|Pt|Plas",
+                "Search": "=name:\"Corticotropin\\^1H post dose glucose|Pt|Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Corticotropin^2.5H post dose glucose|Pt|Plas",
+                "Search": "=name:\"Corticotropin\\^2.5H post dose glucose|Pt|Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Corticotropin^2H post dose glucose|Pt|Plas",
+                "Search": "=name:\"Corticotropin\\^2H post dose glucose|Pt|Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Corticotropin^30M post dose glucose|Pt|Plas",
+                "Search": "=name:\"Corticotropin\\^30M post dose glucose|Pt|Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Corticotropin^3H post dose glucose|Pt|Plas",
+                "Search": "=name:\"Corticotropin\\^3H post dose glucose|Pt|Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Corticotropin^pre dose glucose|Pt|Plas",
+                "Search": "=name:\"Corticotropin\\^pre dose glucose|Pt|Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Estimated average glucose|Pt|Bld|Estimated from glycated hemoglobin",
+                "Search": "=name:\"Estimated average glucose|Pt|Bld|Estimated from glycated hemoglobin\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose phosphate isomerase|CCnc|Pt|ANYBldSerPl",
+                "Search": "=name:\"Glucose phosphate isomerase|CCnc|Pt|ANYBldSerPl\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose tolerance|Imp|Pt|ANYBldSerPl",
+                "Search": "=name:\"Glucose tolerance|Imp|Pt|ANYBldSerPl\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose-6-Phosphate dehydrogenase phenotype|Imp|Pt|RBC",
+                "Search": "=name:\"Glucose\\-6\\-Phosphate dehydrogenase phenotype|Imp|Pt|RBC\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose-6-Phosphate dehydrogenase|CCnt|Pt|RBC",
+                "Search": "=name:\"Glucose\\-6\\-Phosphate dehydrogenase|CCnt|Pt|RBC\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose/Creatinine|MRto|Urine",
+                "Search": "=name:Glucose/Creatinine|MRto|Urine",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose/Creatinine|SRto|Urine",
+                "Search": "=name:Glucose/Creatinine|SRto|Urine",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^1.5H post 50 g lactose PO|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^1.5H post 50 g lactose PO|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^1.5H post 75 g glucose PO|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^1.5H post 75 g glucose PO|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^1.5H post ANY challenge|Pt|ANYBldSerPl",
+                "Search": "=name:\"Glucose\\^1.5H post ANY challenge|Pt|ANYBldSerPl\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^1.5H post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^1.5H post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^1.5H post dose glucose|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^1.5H post dose glucose|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^1.5H post dose insulin IV|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^1.5H post dose insulin IV|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^1.5H post dose lactose PO|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^1.5H post dose lactose PO|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^1.5H post meal|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^1.5H post meal|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^10.75H post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^10.75H post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^10H post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^10H post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^10M post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^10M post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^10M post dose glucagon|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^10M post dose glucagon|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^10M post dose glucose|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^10M post dose glucose|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^10M pre XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^10M pre XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^10th specimen post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^10th specimen post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^11 AM specimen|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^11 AM specimen|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^11.5H post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^11.5H post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^11H post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^11H post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^11th specimen post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^11th specimen post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^12 AM specimen|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^12 AM specimen|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^12 PM specimen|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^12 PM specimen|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^12.5H post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^12.5H post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^12H post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^12H post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^12M post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^12M post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^12th specimen post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^12th specimen post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^13.5H post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^13.5H post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^13H post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^13H post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^13M pre XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^13M pre XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^14H post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^14H post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^14M post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^14M post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^15.5H post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^15.5H post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^15M post 50 g lactose PO|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^15M post 50 g lactose PO|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^15M post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^15M post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^15M post dose lactose PO|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^15M post dose lactose PO|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^15M pre XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^15M pre XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^16H post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^16H post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^16M post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^16M post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^17.5H post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^17.5H post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^18.5H post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^18.5H post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^18H post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^18H post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^19.5H post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^19.5H post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^19M post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^19M post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^1D post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^1D post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^1H post 100 g glucose PO|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^1H post 100 g glucose PO|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^1H post 50 g glucose PO|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^1H post 50 g glucose PO|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^1H post 50 g lactose PO|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^1H post 50 g lactose PO|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^1H post 75 g glucose PO|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^1H post 75 g glucose PO|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^1H post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^1H post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^1H post dose glucose|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^1H post dose glucose|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^1H post dose insulin IV|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^1H post dose insulin IV|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^1H post dose lactose PO|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^1H post dose lactose PO|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^1H post meal|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^1H post meal|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^1st specimen post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^1st specimen post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^2.5H post 50 g lactose PO|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^2.5H post 50 g lactose PO|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^2.5H post 75 g glucose PO|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^2.5H post 75 g glucose PO|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^2.5H post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^2.5H post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^2.5H post dose glucose|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^2.5H post dose glucose|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^20.5H post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^20.5H post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^20H post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^20H post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^20M post 50 g lactose PO|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^20M post 50 g lactose PO|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^20M post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^20M post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^20M post dose glucagon|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^20M post dose glucagon|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^20M post dose glucose|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^20M post dose glucose|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^20M pre XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^20M pre XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^21.5H post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^21.5H post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^22H post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^22H post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^22M post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^22M post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^23.5H post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^23.5H post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^25H post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^25H post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^25M post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^25M post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^26H post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^26H post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^27H post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^27H post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^27M post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^27M post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^28H post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^28H post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^29H post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^29H post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^2D post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^2D post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^2H dwell specimen|Pt|Dial fld prt",
+                "Search": "=name:\"Glucose\\^2H dwell specimen|Pt|Dial fld prt\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^2H post 100 g glucose PO|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^2H post 100 g glucose PO|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^2H post 50 g lactose PO|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^2H post 50 g lactose PO|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^2H post 75 g glucose PO|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^2H post 75 g glucose PO|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^2H post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^2H post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^2H post dose glucose|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^2H post dose glucose|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^2H post dose insulin IV|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^2H post dose insulin IV|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^2H post dose lactose PO|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^2H post dose lactose PO|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^2H post meal|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^2H post meal|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^2H post meal|SCnc|Pt|ANYBldSerPl",
+                "Search": "=name:\"Glucose\\^2H post meal|SCnc|Pt|ANYBldSerPl\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^2H specimen|Pt|Dial fld",
+                "Search": "=name:\"Glucose\\^2H specimen|Pt|Dial fld\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^2M post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^2M post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^2nd specimen post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^2nd specimen post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^3 PM specimen|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^3 PM specimen|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^3.5H post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^3.5H post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^3.5H post dose glucose|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^3.5H post dose glucose|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^30H post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^30H post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^30M post 50 g lactose PO|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^30M post 50 g lactose PO|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^30M post 75 g glucose PO|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^30M post 75 g glucose PO|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^30M post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^30M post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^30M post dose glucose|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^30M post dose glucose|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^30M post dose insulin IV|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^30M post dose insulin IV|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^30M post dose lactose PO|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^30M post dose lactose PO|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^30M pre XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^30M pre XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^31H post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^31H post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^36H post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^36H post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^3H post 100 g glucose PO|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^3H post 100 g glucose PO|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^3H post 75 g glucose PO|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^3H post 75 g glucose PO|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^3H post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^3H post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^3H post dose glucose|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^3H post dose glucose|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^3H post dose lactose PO|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^3H post dose lactose PO|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^3M post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^3M post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^3M pre XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^3M pre XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^3rd specimen post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^3rd specimen post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^4 PM specimen|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^4 PM specimen|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^4.5H post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^4.5H post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^40M post 50 g lactose PO|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^40M post 50 g lactose PO|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^40M post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^40M post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^45M post 50 g lactose PO|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^45M post 50 g lactose PO|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^45M post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^45M post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^45M post dose glucose|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^45M post dose glucose|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^45M post dose insulin IV|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^45M post dose insulin IV|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^45M post dose lactose PO|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^45M post dose lactose PO|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^4H dwell specimen|Pt|Dial fld prt",
+                "Search": "=name:\"Glucose\\^4H dwell specimen|Pt|Dial fld prt\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^4H post 75 g glucose PO|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^4H post 75 g glucose PO|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^4H post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^4H post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^4H post dose glucose|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^4H post dose glucose|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^4H specimen|Pt|Dial fld",
+                "Search": "=name:\"Glucose\\^4H specimen|Pt|Dial fld\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^4M post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^4M post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^4th specimen post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^4th specimen post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^5.5H post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^5.5H post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^50M post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^50M post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^5H post 75 g glucose PO|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^5H post 75 g glucose PO|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^5H post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^5H post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^5H post dose glucose|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^5H post dose glucose|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^5M post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^5M post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^5M pre XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^5M pre XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^5th specimen post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^5th specimen post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^6.5H post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^6.5H post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^6H post 100 g glucose PO|MCnc|Pt|ANYBldSerPl",
+                "Search": "=name:\"Glucose\\^6H post 100 g glucose PO|MCnc|Pt|ANYBldSerPl\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^6H post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^6H post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^6H post dose glucose|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^6H post dose glucose|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^6th specimen post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^6th specimen post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^7 AM specimen|SCnc|Pt|ANYBldSerPl",
+                "Search": "=name:\"Glucose\\^7 AM specimen|SCnc|Pt|ANYBldSerPl\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^7.5H post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^7.5H post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^70M post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^70M post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^75M post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^75M post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^7H post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^7H post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^7th specimen post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^7th specimen post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^8 AM specimen|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^8 AM specimen|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^8 PM specimen|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^8 PM specimen|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^8.5H post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^8.5H post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^8H post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^8H post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^8M post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^8M post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^8th specimen post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^8th specimen post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^9.5H post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^9.5H post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^9H post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^9H post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^9M post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^9M post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^9th specimen post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^9th specimen post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^baseline|MCnc|Pt|ANYBldSerPl",
+                "Search": "=name:Glucose\\^baseline|MCnc|Pt|ANYBldSerPl",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^baseline|Pt|Ser/Plas",
+                "Search": "=name:Glucose\\^baseline|Pt|Ser/Plas",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^post CFst|MCnc|Pt|ANYBldSerPl",
+                "Search": "=name:\"Glucose\\^post CFst|MCnc|Pt|ANYBldSerPl\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^post CFst|PrThr|Pt|ANYUrine",
+                "Search": "=name:\"Glucose\\^post CFst|PrThr|Pt|ANYUrine\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^post CFst|PrThr|Urine",
+                "Search": "=name:\"Glucose\\^post CFst|PrThr|Urine\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^post CFst|Pt|BldC|Glucometer",
+                "Search": "=name:\"Glucose\\^post CFst|Pt|BldC|Glucometer\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^post CFst|Pt|BldV",
+                "Search": "=name:\"Glucose\\^post CFst|Pt|BldV\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^post CFst|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^post CFst|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^post CFst|Pt|Urine",
+                "Search": "=name:\"Glucose\\^post CFst|Pt|Urine\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^post CFst|SCnc|Pt|ANYBldSerPl",
+                "Search": "=name:\"Glucose\\^post CFst|SCnc|Pt|ANYBldSerPl\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^post XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^post XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^post meal|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^post meal|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^pre 100 g glucose PO|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^pre 100 g glucose PO|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^pre 12H CFst|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^pre 12H CFst|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^pre 75 g glucose PO|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^pre 75 g glucose PO|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^pre XXX challenge|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^pre XXX challenge|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^pre dose insulin IV|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^pre dose insulin IV|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^pre dose lactose PO|Pt|Ser/Plas",
+                "Search": "=name:\"Glucose\\^pre dose lactose PO|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose^pre-meal|Pt|Ser/Plas",
+                "Search": "=name:Glucose\\^pre\\-meal|Pt|Ser/Plas",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose|24H|Urine|180.156 g/mole",
+                "Search": "=name:\"Glucose|24H|Urine|180.156 g/mole\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose|MCnc|Pt|ANYBldSerPl",
+                "Search": "=name:Glucose|MCnc|Pt|ANYBldSerPl",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose|MCnc|Pt|Stool",
+                "Search": "=name:Glucose|MCnc|Pt|Stool",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose|MCnc|Urine",
+                "Search": "=name:Glucose|MCnc|Urine",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose|MRat|Urine",
+                "Search": "=name:Glucose|MRat|Urine",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose|PrThr|Urine",
+                "Search": "=name:Glucose|PrThr|Urine",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose|Pt|BldA|180.156 g/mole",
+                "Search": "=name:\"Glucose|Pt|BldA|180.156 g/mole\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose|Pt|BldC|180.156 g/mole",
+                "Search": "=name:\"Glucose|Pt|BldC|180.156 g/mole\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose|Pt|BldC|Glucometer|180.156 g/mole",
+                "Search": "=name:\"Glucose|Pt|BldC|Glucometer|180.156 g/mole\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose|Pt|BldMV|180.156 g/mole",
+                "Search": "=name:\"Glucose|Pt|BldMV|180.156 g/mole\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose|Pt|BldV|180.156 g/mole",
+                "Search": "=name:\"Glucose|Pt|BldV|180.156 g/mole\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose|Pt|Bld|180.156 g/mole",
+                "Search": "=name:\"Glucose|Pt|Bld|180.156 g/mole\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose|Pt|Bld|Test strip.automated|180.156 g/mole",
+                "Search": "=name:\"Glucose|Pt|Bld|Test strip.automated|180.156 g/mole\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose|Pt|Body fld|180.156 g/mole",
+                "Search": "=name:\"Glucose|Pt|Body fld|180.156 g/mole\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose|Pt|CSF|180.156 g/mole",
+                "Search": "=name:\"Glucose|Pt|CSF|180.156 g/mole\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose|Pt|Dial fld prt|180.156 g/mole",
+                "Search": "=name:\"Glucose|Pt|Dial fld prt|180.156 g/mole\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose|Pt|Dial fld|180.156 g/mole",
+                "Search": "=name:\"Glucose|Pt|Dial fld|180.156 g/mole\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose|Pt|Interstitial fluid|180.156 g/mole",
+                "Search": "=name:\"Glucose|Pt|Interstitial fluid|180.156 g/mole\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose|Pt|Pericard fld|180.156 g/mole",
+                "Search": "=name:\"Glucose|Pt|Pericard fld|180.156 g/mole\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose|Pt|Periton fld|180.156 g/mole",
+                "Search": "=name:\"Glucose|Pt|Periton fld|180.156 g/mole\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose|Pt|Plr fld|180.156 g/mole",
+                "Search": "=name:\"Glucose|Pt|Plr fld|180.156 g/mole\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose|Pt|Ser/Plas/Bld|180.156 g/mole",
+                "Search": "=name:\"Glucose|Pt|Ser/Plas/Bld|180.156 g/mole\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose|Pt|Ser/Plas|180.156 g/mole",
+                "Search": "=name:\"Glucose|Pt|Ser/Plas|180.156 g/mole\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose|Pt|Stool|180.156 g/mole",
+                "Search": "=name:\"Glucose|Pt|Stool|180.156 g/mole\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose|Pt|Synv fld|180.156 g/mole",
+                "Search": "=name:\"Glucose|Pt|Synv fld|180.156 g/mole\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose|Pt|Urine|180.156 g/mole",
+                "Search": "=name:\"Glucose|Pt|Urine|180.156 g/mole\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose|Pt|Urine|Test strip.automated|180.156 g/mole",
+                "Search": "=name:\"Glucose|Pt|Urine|Test strip.automated|180.156 g/mole\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose|Pt|Urine|Test strip|180.156 g/mole",
+                "Search": "=name:\"Glucose|Pt|Urine|Test strip|180.156 g/mole\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose|Pt|Vitr fld|180.156 g/mole",
+                "Search": "=name:\"Glucose|Pt|Vitr fld|180.156 g/mole\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose|Pt|Water|180.156 g/mole",
+                "Search": "=name:\"Glucose|Pt|Water|180.156 g/mole\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose|RptPeriod|Interstitial fluid|Calculated|180.156 g/mole",
+                "Search": "=name:\"Glucose|RptPeriod|Interstitial fluid|Calculated|180.156 g/mole\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose|SCnc|Pt|ANYBldSerPl",
+                "Search": "=name:Glucose|SCnc|Pt|ANYBldSerPl",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose|SCnc|Urine",
+                "Search": "=name:Glucose|SCnc|Urine",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose|SRat|Urine",
+                "Search": "=name:Glucose|SRat|Urine",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose|Urine/Urine sed",
+                "Search": "=name:\"Glucose|Urine/Urine sed\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose|XXX|Urine|180.156 g/mole",
+                "Search": "=name:\"Glucose|XXX|Urine|180.156 g/mole\"",
+                "Count": 1
+            },
+            {
+                "Label": "Insulin^1.5H post 75 g glucose PO|ACnc|Pt|ANYBldSerPl",
+                "Search": "=name:\"Insulin\\^1.5H post 75 g glucose PO|ACnc|Pt|ANYBldSerPl\"",
+                "Count": 1
+            },
+            {
+                "Label": "Insulin^1H post 75 g glucose PO|Pt|Ser/Plas",
+                "Search": "=name:\"Insulin\\^1H post 75 g glucose PO|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Insulin^2H post 75 g glucose PO|Pt|Ser/Plas",
+                "Search": "=name:\"Insulin\\^2H post 75 g glucose PO|Pt|Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Insulin^3H post 75 g glucose PO|Pt|Ser/Plas",
+                "Search": "=name:\"Insulin\\^3H post 75 g glucose PO|Pt|Ser/Plas\"",
+                "Count": 1
+            }
+        ],
+        "Category": [
+            {
+                "Label": "Flowsheet - laboratory",
+                "Search": "=category:\"Flowsheet \\- laboratory\"",
+                "Count": 24
+            },
+            {
+                "Label": "Mass-Molar conversion",
+                "Search": "=category:\"Mass\\-Molar conversion\"",
+                "Count": 216
+            },
+            {
+                "Label": "Respiratory microbiology",
+                "Search": "=category:\"Respiratory microbiology\"",
+                "Count": 1
+            }
+        ],
+        "Status": [
+            {
+                "Label": "Active",
+                "Search": "=status:Active",
+                "Count": 242
+            }
+        ]
+    }
+}

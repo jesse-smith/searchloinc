@@ -1,0 +1,176 @@
+{
+    "ResponseSummary": {
+        "RecordsFound": 202,
+        "StartingOffset": 0,
+        "RowsReturned": 5,
+        "LoincVersion": "2.82",
+        "Copyright": "Copyright \u00a9 2026 Regenstrief Institute, Inc. All Rights Reserved.",
+        "QueryUrl": "https://loinc.regenstrief.org/searchapi/parts?query=hemoglobin&rows=5&includefiltercounts=true",
+        "Next": "https://loinc.regenstrief.org/searchapi/parts?query=hemoglobin&rows=5&includefiltercounts=true&offset=5",
+        "QueryExecutionTime": "2026-07-07T13:01:45.5744445-04:00",
+        "QueryDuration": 0.0910117
+    },
+    "Results": [
+        {
+            "PartNumber": "LP31618-9",
+            "PartTypeName": "COMPONENT",
+            "PartName": "Hemoglobin disorders",
+            "PartDisplayName": "Hemoglobin disorders",
+            "Status": "ACTIVE",
+            "Classlist": "CHEM",
+            "Link": "https://loinc.org/LP31618-9"
+        },
+        {
+            "PartNumber": "LP449934-1",
+            "PartTypeName": "COMPONENT",
+            "PartName": "Hemoglobin^3rd specimen",
+            "PartDisplayName": "Hemoglobin^3rd specimen",
+            "Status": "ACTIVE",
+            "Classlist": "CHEM,HEM/BC",
+            "Link": "https://loinc.org/LP449934-1"
+        },
+        {
+            "PartNumber": "LP449941-6",
+            "PartTypeName": "COMPONENT",
+            "PartName": "Hemoglobin^4th specimen",
+            "PartDisplayName": "Hemoglobin^4th specimen",
+            "Status": "ACTIVE",
+            "Classlist": "CHEM",
+            "Link": "https://loinc.org/LP449941-6"
+        },
+        {
+            "PartNumber": "LP449945-7",
+            "PartTypeName": "COMPONENT",
+            "PartName": "Hemoglobin^8th specimen",
+            "PartDisplayName": "Hemoglobin^8th specimen",
+            "Status": "ACTIVE",
+            "Classlist": "CHEM",
+            "Link": "https://loinc.org/LP449945-7"
+        },
+        {
+            "PartNumber": "LP286151-8",
+            "PartTypeName": "COMPONENT",
+            "PartName": "Hemoglobin A1c/Hemoglobin.total",
+            "PartDisplayName": "Hemoglobin A1c/Hemoglobin.total",
+            "Status": "ACTIVE",
+            "Classlist": "CHEM",
+            "Link": "https://loinc.org/LP286151-8"
+        }
+    ],
+    "FilterCounts": {
+        "Type": [
+            {
+                "Label": "ADJUSTMENT",
+                "Search": "=type:ADJUSTMENT",
+                "Count": 1
+            },
+            {
+                "Label": "COMPONENT",
+                "Search": "=type:COMPONENT",
+                "Count": 197
+            },
+            {
+                "Label": "DIVISORS",
+                "Search": "=type:DIVISORS",
+                "Count": 3
+            },
+            {
+                "Label": "METHOD",
+                "Search": "=type:METHOD",
+                "Count": 1
+            }
+        ],
+        "ClassList": [
+            {
+                "Label": "ATTACH.CPHS",
+                "Search": "=classlist:ATTACH.CPHS",
+                "Count": 2
+            },
+            {
+                "Label": "BLDBK.GENOTYPING",
+                "Search": "=classlist:BLDBK.GENOTYPING",
+                "Count": 1
+            },
+            {
+                "Label": "CHEM",
+                "Search": "=classlist:CHEM",
+                "Count": 29
+            },
+            {
+                "Label": "CLIN",
+                "Search": "=classlist:CLIN",
+                "Count": 4
+            },
+            {
+                "Label": "HEM/BC",
+                "Search": "=classlist:HEM/BC",
+                "Count": 145
+            },
+            {
+                "Label": "LABORDERS",
+                "Search": "=classlist:LABORDERS",
+                "Count": 7
+            },
+            {
+                "Label": "LABORDERS.ONTOLOGY",
+                "Search": "=classlist:LABORDERS.ONTOLOGY",
+                "Count": 4
+            },
+            {
+                "Label": "MOLPATH",
+                "Search": "=classlist:MOLPATH",
+                "Count": 1
+            },
+            {
+                "Label": "MOLPATH.DELDUP",
+                "Search": "=classlist:MOLPATH.DELDUP",
+                "Count": 1
+            },
+            {
+                "Label": "MOLPATH.MUT",
+                "Search": "=classlist:MOLPATH.MUT",
+                "Count": 4
+            },
+            {
+                "Label": "PANEL.BLDBK.GENOTYPE",
+                "Search": "=classlist:PANEL.BLDBK.GENOTYPE",
+                "Count": 1
+            },
+            {
+                "Label": "PANEL.CHEM",
+                "Search": "=classlist:PANEL.CHEM",
+                "Count": 1
+            },
+            {
+                "Label": "PANEL.HEM/BC",
+                "Search": "=classlist:PANEL.HEM/BC",
+                "Count": 6
+            },
+            {
+                "Label": "PANEL.MOLPATH",
+                "Search": "=classlist:PANEL.MOLPATH",
+                "Count": 1
+            },
+            {
+                "Label": "PANEL.PHENX",
+                "Search": "=classlist:PANEL.PHENX",
+                "Count": 2
+            },
+            {
+                "Label": "PATH",
+                "Search": "=classlist:PATH",
+                "Count": 2
+            },
+            {
+                "Label": "PULM",
+                "Search": "=classlist:PULM",
+                "Count": 18
+            },
+            {
+                "Label": "UA",
+                "Search": "=classlist:UA",
+                "Count": 2
+            }
+        ]
+    }
+}

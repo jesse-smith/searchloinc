@@ -1,0 +1,1717 @@
+{
+    "ResponseSummary": {
+        "RecordsFound": 1024,
+        "StartingOffset": 0,
+        "RowsReturned": 5,
+        "LoincVersion": "2.82",
+        "Copyright": "Copyright \u00a9 2026 Regenstrief Institute, Inc. All Rights Reserved.",
+        "QueryUrl": "https://loinc.regenstrief.org/searchapi/loincs?query=glucose&rows=5&includefiltercounts=true",
+        "Next": "https://loinc.regenstrief.org/searchapi/loincs?query=glucose&rows=5&includefiltercounts=true&offset=5",
+        "QueryExecutionTime": "2026-07-07T17:16:12.452719-04:00",
+        "QueryDuration": 0.025645
+    },
+    "Results": [
+        {
+            "LOINC_NUM": "97510-2",
+            "COMPONENT": "Glucose measurements in range/Total glucose measurements",
+            "PROPERTY": "NFr",
+            "TIME_ASPCT": "RptPeriod",
+            "SYSTEM": "Interstitial fluid",
+            "SCALE_TYP": "Qn",
+            "METHOD_TYP": "Calculated",
+            "CLASS": "CHEM",
+            "VersionLastChanged": "2.79",
+            "CHNG_TYPE": "MIN",
+            "DefinitionDescription": "The percentage of blood glucose levels that are in a target range for patients using continuous glucose monitoring (CGM) devices. The International Consensus in Time in Range (IC-TIR) defines the target range between 70 and 180 mg/dL (3.9-10.0 mmol/L).[PMID: 31177185] The goal is to reduce the time spent in hypoglycemia (glucose levels < 70 mg/dL).",
+            "STATUS": "ACTIVE",
+            "CLASSTYPE": 1,
+            "FORMULA": null,
+            "ExampleAnswers": null,
+            "SURVEY_QUEST_TEXT": "Amount of time, in percent, as measured by CGM (continuous glucose monitor) device, spent in target glucose range (70-180 mg/dL [3.9-10.0 mmol/L]) during reporting period. The primary goal for effective and safe glucose control is to increase the TIR whil",
+            "SURVEY_QUEST_SRC": null,
+            "UNITSREQUIRED": "N",
+            "RELATEDNAMES2": "Calc; Calculation; Chemistry; Endocrine; Endocrinology; Glu; Gluc; Glucose levels in range; Glucose time in range; Glucoseur; Interstitial fld; Number Fraction; Percent; QNT; Quan; Quant; Quantitative; Report period; Rnge; TIR; Tot; Totl",
+            "SHORTNAME": "% Glucose measurements in range",
+            "ORDER_OBS": "Observation",
+            "HL7_FIELD_SUBFIELD_ID": null,
+            "EXTERNAL_COPYRIGHT_NOTICE": null,
+            "EXAMPLE_UNITS": "%",
+            "LONG_COMMON_NAME": "Glucose measurements in range out of Total glucose measurements during reporting period",
+            "EXAMPLE_UCUM_UNITS": "%",
+            "STATUS_REASON": null,
+            "STATUS_TEXT": null,
+            "CHANGE_REASON_PUBLIC": null,
+            "COMMON_TEST_RANK": 0,
+            "COMMON_ORDER_RANK": 0,
+            "COMMON_SI_TEST_RANK": 0,
+            "HL7_ATTACHMENT_STRUCTURE": null,
+            "EXTERNAL_COPYRIGHT_LINK": null,
+            "PanelType": null,
+            "AskAtOrderEntry": null,
+            "AssociatedObservations": null,
+            "VersionFirstReleased": "2.70",
+            "ValidHL7AttachmentRequest": null,
+            "DisplayName": "Glucose measurements in range/Total glucose measurements Calc (Reporting Period Interstitial fluid)",
+            "LHCForms": "false",
+            "FormalName": "Glucose measurements in range/Total glucose measurements:NFr:RptPeriod:Interstitial fluid:Qn:Calculated",
+            "LinguisticVariantDisplayName": null,
+            "TermDescriptions": [
+                {
+                    "Description": "The percentage of blood glucose levels that are in a target range for patients using continuous glucose monitoring (CGM) devices. The International Consensus in Time in Range (IC-TIR) defines the target range between 70 and 180 mg/dL (3.9-10.0 mmol/L).[PMID: 31177185] The goal is to reduce the time spent in hypoglycemia (glucose levels < 70 mg/dL).",
+                    "DescriptionHtml": "The percentage of blood glucose levels that are in a target range for patients using continuous glucose monitoring (CGM) devices. The International Consensus in Time in Range (IC-TIR) defines the target range between 70 and 180 mg/dL (3.9-10.0 mmol/L).[<a href='https://www.ncbi.nlm.nih.gov/pubmed/31177185' target='_blank'>PMID: 31177185</a>] The goal is to reduce the time spent in hypoglycemia (glucose levels < 70 mg/dL).",
+                    "Source": "Regenstrief LOINC",
+                    "Sequence": 0,
+                    "Url": null,
+                    "UrlDisplayText": null,
+                    "Copyright": null
+                }
+            ],
+            "CodeSystems": [],
+            "Tags": [
+                "Endocrinology"
+            ],
+            "Link": "https://loinc.org/97510-2"
+        },
+        {
+            "LOINC_NUM": "2352-3",
+            "COMPONENT": "Glucose CSF/Glucose plas",
+            "PROPERTY": "RelMCnc",
+            "TIME_ASPCT": "Pt",
+            "SYSTEM": "Plas+CSF",
+            "SCALE_TYP": "Qn",
+            "METHOD_TYP": null,
+            "CLASS": "CHEM",
+            "VersionLastChanged": "2.42",
+            "CHNG_TYPE": "MIN",
+            "DefinitionDescription": null,
+            "STATUS": "ACTIVE",
+            "CLASSTYPE": 1,
+            "FORMULA": null,
+            "ExampleAnswers": null,
+            "SURVEY_QUEST_TEXT": null,
+            "SURVEY_QUEST_SRC": null,
+            "UNITSREQUIRED": "Y",
+            "RELATEDNAMES2": "Cerebral spinal fluid; Cerebrospinal Fl; Chemistry; Glu; Gluc; Glucose CSF:SerPl; Glucoseur; Pl; Plasma; Plsm; Point in time; QNT; Quan; Quant; Quantitative; Random; Relative mass concentration; RLMCNC; SerPl; Spinal Fl; Spinal Fld; Spinal Flu; Spinal Fluid",
+            "SHORTNAME": "Glucose CSF/SerPl",
+            "ORDER_OBS": "Observation",
+            "HL7_FIELD_SUBFIELD_ID": null,
+            "EXTERNAL_COPYRIGHT_NOTICE": null,
+            "EXAMPLE_UNITS": null,
+            "LONG_COMMON_NAME": "Glucose in CSF/Glucose plas",
+            "EXAMPLE_UCUM_UNITS": null,
+            "STATUS_REASON": null,
+            "STATUS_TEXT": null,
+            "CHANGE_REASON_PUBLIC": null,
+            "COMMON_TEST_RANK": 0,
+            "COMMON_ORDER_RANK": 0,
+            "COMMON_SI_TEST_RANK": 0,
+            "HL7_ATTACHMENT_STRUCTURE": null,
+            "EXTERNAL_COPYRIGHT_LINK": null,
+            "PanelType": null,
+            "AskAtOrderEntry": null,
+            "AssociatedObservations": null,
+            "VersionFirstReleased": "1.0",
+            "ValidHL7AttachmentRequest": null,
+            "DisplayName": "Glucose in CSF/Glucose plas (P+CSF) [Relative mass conc]",
+            "LHCForms": "false",
+            "FormalName": "Glucose CSF/Glucose plas:RelMCnc:Pt:Plas+CSF:Qn:",
+            "LinguisticVariantDisplayName": null,
+            "TermDescriptions": [],
+            "CodeSystems": [],
+            "Tags": [],
+            "Link": "https://loinc.org/2352-3"
+        },
+        {
+            "LOINC_NUM": "25670-1",
+            "COMPONENT": "Glucose^30M post dose glucose",
+            "PROPERTY": "MCnc",
+            "TIME_ASPCT": "Pt",
+            "SYSTEM": "Urine",
+            "SCALE_TYP": "Qn",
+            "METHOD_TYP": null,
+            "CLASS": "CHAL",
+            "VersionLastChanged": "2.73",
+            "CHNG_TYPE": "MIN",
+            "DefinitionDescription": null,
+            "STATUS": "ACTIVE",
+            "CLASSTYPE": 1,
+            "FORMULA": null,
+            "ExampleAnswers": null,
+            "SURVEY_QUEST_TEXT": null,
+            "SURVEY_QUEST_SRC": null,
+            "UNITSREQUIRED": "Y",
+            "RELATEDNAMES2": "30M p Glc; After; CHEMISTRY.CHALLENGE TESTING; Endocrine; Endocrinology; Glu; Glu tol; Gluc; Glucose tolerance; Glucoseur; GTT; Level; Mass concentration; p dose; p Glc; Point in time; PST; QNT; Quan; Quant; Quantitative; Random; UA; UR; Urn",
+            "SHORTNAME": "Glucose 30M p Glc Ur-mCnc",
+            "ORDER_OBS": "Observation",
+            "HL7_FIELD_SUBFIELD_ID": null,
+            "EXTERNAL_COPYRIGHT_NOTICE": null,
+            "EXAMPLE_UNITS": "mg/dL",
+            "LONG_COMMON_NAME": "Glucose [Mass/volume] in Urine --30 minutes post dose glucose",
+            "EXAMPLE_UCUM_UNITS": "mg/dL",
+            "STATUS_REASON": null,
+            "STATUS_TEXT": null,
+            "CHANGE_REASON_PUBLIC": null,
+            "COMMON_TEST_RANK": 10443,
+            "COMMON_ORDER_RANK": 0,
+            "COMMON_SI_TEST_RANK": 0,
+            "HL7_ATTACHMENT_STRUCTURE": null,
+            "EXTERNAL_COPYRIGHT_LINK": null,
+            "PanelType": null,
+            "AskAtOrderEntry": null,
+            "AssociatedObservations": null,
+            "VersionFirstReleased": "2.00",
+            "ValidHL7AttachmentRequest": null,
+            "DisplayName": "Glucose 30 Min post dose glucose (U) [Mass/Vol]",
+            "LHCForms": "false",
+            "FormalName": "Glucose^30M post dose glucose:MCnc:Pt:Urine:Qn:",
+            "LinguisticVariantDisplayName": null,
+            "TermDescriptions": [],
+            "CodeSystems": [],
+            "Tags": [
+                "Endocrinology"
+            ],
+            "Link": "https://loinc.org/25670-1"
+        },
+        {
+            "LOINC_NUM": "26540-5",
+            "COMPONENT": "Glucose^3H post dose glucose",
+            "PROPERTY": "MCnc",
+            "TIME_ASPCT": "Pt",
+            "SYSTEM": "Urine",
+            "SCALE_TYP": "Qn",
+            "METHOD_TYP": null,
+            "CLASS": "CHAL",
+            "VersionLastChanged": "2.73",
+            "CHNG_TYPE": "MIN",
+            "DefinitionDescription": null,
+            "STATUS": "ACTIVE",
+            "CLASSTYPE": 1,
+            "FORMULA": null,
+            "ExampleAnswers": null,
+            "SURVEY_QUEST_TEXT": null,
+            "SURVEY_QUEST_SRC": null,
+            "UNITSREQUIRED": "Y",
+            "RELATEDNAMES2": "3h p Glc; After; CHEMISTRY.CHALLENGE TESTING; Endocrine; Endocrinology; Glu; Glu tol; Gluc; Glucose tolerance; Glucoseur; GTT; Level; Mass concentration; p dose; p Glc; Point in time; PST; QNT; Quan; Quant; Quantitative; Random; UA; UR; Urn",
+            "SHORTNAME": "Glucose 3h p Glc Ur-mCnc",
+            "ORDER_OBS": "Observation",
+            "HL7_FIELD_SUBFIELD_ID": null,
+            "EXTERNAL_COPYRIGHT_NOTICE": null,
+            "EXAMPLE_UNITS": "mg/dL",
+            "LONG_COMMON_NAME": "Glucose [Mass/volume] in Urine --3 hours post dose glucose",
+            "EXAMPLE_UCUM_UNITS": "mg/dL",
+            "STATUS_REASON": null,
+            "STATUS_TEXT": null,
+            "CHANGE_REASON_PUBLIC": null,
+            "COMMON_TEST_RANK": 10393,
+            "COMMON_ORDER_RANK": 0,
+            "COMMON_SI_TEST_RANK": 0,
+            "HL7_ATTACHMENT_STRUCTURE": null,
+            "EXTERNAL_COPYRIGHT_LINK": null,
+            "PanelType": null,
+            "AskAtOrderEntry": null,
+            "AssociatedObservations": null,
+            "VersionFirstReleased": "2.00",
+            "ValidHL7AttachmentRequest": null,
+            "DisplayName": "Glucose 3 Hr post dose glucose (U) [Mass/Vol]",
+            "LHCForms": "false",
+            "FormalName": "Glucose^3H post dose glucose:MCnc:Pt:Urine:Qn:",
+            "LinguisticVariantDisplayName": null,
+            "TermDescriptions": [],
+            "CodeSystems": [],
+            "Tags": [
+                "Endocrinology"
+            ],
+            "Link": "https://loinc.org/26540-5"
+        },
+        {
+            "LOINC_NUM": "25675-0",
+            "COMPONENT": "Glucose^4H post dose glucose",
+            "PROPERTY": "MCnc",
+            "TIME_ASPCT": "Pt",
+            "SYSTEM": "Urine",
+            "SCALE_TYP": "Qn",
+            "METHOD_TYP": null,
+            "CLASS": "CHAL",
+            "VersionLastChanged": "2.73",
+            "CHNG_TYPE": "MIN",
+            "DefinitionDescription": null,
+            "STATUS": "ACTIVE",
+            "CLASSTYPE": 1,
+            "FORMULA": null,
+            "ExampleAnswers": null,
+            "SURVEY_QUEST_TEXT": null,
+            "SURVEY_QUEST_SRC": null,
+            "UNITSREQUIRED": "Y",
+            "RELATEDNAMES2": "4h p Glc; After; CHEMISTRY.CHALLENGE TESTING; Endocrine; Endocrinology; Glu; Glu tol; Gluc; Glucose tolerance; Glucoseur; GTT; Level; Mass concentration; p dose; p Glc; Point in time; PST; QNT; Quan; Quant; Quantitative; Random; UA; UR; Urn",
+            "SHORTNAME": "Glucose 4h p Glc Ur-mCnc",
+            "ORDER_OBS": "Observation",
+            "HL7_FIELD_SUBFIELD_ID": null,
+            "EXTERNAL_COPYRIGHT_NOTICE": null,
+            "EXAMPLE_UNITS": "mg/dL",
+            "LONG_COMMON_NAME": "Glucose [Mass/volume] in Urine --4 hours post dose glucose",
+            "EXAMPLE_UCUM_UNITS": "mg/dL",
+            "STATUS_REASON": null,
+            "STATUS_TEXT": null,
+            "CHANGE_REASON_PUBLIC": null,
+            "COMMON_TEST_RANK": 11386,
+            "COMMON_ORDER_RANK": 0,
+            "COMMON_SI_TEST_RANK": 0,
+            "HL7_ATTACHMENT_STRUCTURE": null,
+            "EXTERNAL_COPYRIGHT_LINK": null,
+            "PanelType": null,
+            "AskAtOrderEntry": null,
+            "AssociatedObservations": null,
+            "VersionFirstReleased": "2.00",
+            "ValidHL7AttachmentRequest": null,
+            "DisplayName": "Glucose 4 Hr post dose glucose (U) [Mass/Vol]",
+            "LHCForms": "false",
+            "FormalName": "Glucose^4H post dose glucose:MCnc:Pt:Urine:Qn:",
+            "LinguisticVariantDisplayName": null,
+            "TermDescriptions": [],
+            "CodeSystems": [],
+            "Tags": [
+                "Endocrinology"
+            ],
+            "Link": "https://loinc.org/25675-0"
+        }
+    ],
+    "FilterCounts": {
+        "System": [
+            {
+                "Label": "Amnio fld",
+                "Search": "=system:\"Amnio fld\"",
+                "Count": 1
+            },
+            {
+                "Label": "Bld",
+                "Search": "=system:Bld",
+                "Count": 25,
+                "Description": "Blood"
+            },
+            {
+                "Label": "Bld.dot",
+                "Search": "=system:Bld.dot",
+                "Count": 5,
+                "Description": "Blood.dot.(Filter Paper)"
+            },
+            {
+                "Label": "Bld/Tiss",
+                "Search": "=system:Bld/Tiss",
+                "Count": 4,
+                "Description": "BldTiss"
+            },
+            {
+                "Label": "BldA",
+                "Search": "=system:BldA",
+                "Count": 4,
+                "Description": "Blood.Arterial"
+            },
+            {
+                "Label": "BldC",
+                "Search": "=system:BldC",
+                "Count": 11,
+                "Description": "Blood.capillary"
+            },
+            {
+                "Label": "BldCo",
+                "Search": "=system:BldCo",
+                "Count": 1,
+                "Description": "Blood.cord"
+            },
+            {
+                "Label": "BldMV",
+                "Search": "=system:BldMV",
+                "Count": 2,
+                "Description": "Blood.mixed.venous"
+            },
+            {
+                "Label": "BldV",
+                "Search": "=system:BldV",
+                "Count": 6,
+                "Description": "Blood.venous"
+            },
+            {
+                "Label": "Body fld",
+                "Search": "=system:\"Body fld\"",
+                "Count": 6
+            },
+            {
+                "Label": "CSF",
+                "Search": "=system:CSF",
+                "Count": 9,
+                "Description": "Cerbero spinalfluid"
+            },
+            {
+                "Label": "Dial fld",
+                "Search": "=system:\"Dial fld\"",
+                "Count": 10
+            },
+            {
+                "Label": "Dial fld prt",
+                "Search": "=system:\"Dial fld prt\"",
+                "Count": 20
+            },
+            {
+                "Label": "Dose",
+                "Search": "=system:Dose",
+                "Count": 2,
+                "Description": "Dose med or substance"
+            },
+            {
+                "Label": "Exhl gas",
+                "Search": "=system:\"Exhl gas\"",
+                "Count": 17
+            },
+            {
+                "Label": "Flu.nonbiological",
+                "Search": "=system:Flu.nonbiological",
+                "Count": 1
+            },
+            {
+                "Label": "Gast fld",
+                "Search": "=system:\"Gast fld\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucose meter device",
+                "Search": "=system:\"Glucose meter device\"",
+                "Count": 5
+            },
+            {
+                "Label": "Interstitial fluid",
+                "Search": "=system:\"Interstitial fluid\"",
+                "Count": 9,
+                "Description": "Interstitial fluid"
+            },
+            {
+                "Label": "Milk",
+                "Search": "=system:Milk",
+                "Count": 1
+            },
+            {
+                "Label": "Nph",
+                "Search": "=system:Nph",
+                "Count": 1,
+                "Description": "Nasopharynx specimen"
+            },
+            {
+                "Label": "Outpatient",
+                "Search": "=system:Outpatient",
+                "Count": 1
+            },
+            {
+                "Label": "Pericard fld",
+                "Search": "=system:\"Pericard fld\"",
+                "Count": 2
+            },
+            {
+                "Label": "Pericard fld+Ser/Plas",
+                "Search": "=system:\"Pericard fld\\+Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Periton fld",
+                "Search": "=system:\"Periton fld\"",
+                "Count": 6
+            },
+            {
+                "Label": "Periton fld+Ser/Plas",
+                "Search": "=system:\"Periton fld\\+Ser/Plas\"",
+                "Count": 1
+            },
+            {
+                "Label": "Plas",
+                "Search": "=system:Plas",
+                "Count": 17,
+                "Description": "Plasma"
+            },
+            {
+                "Label": "Plas+CSF",
+                "Search": "=system:Plas\\+CSF",
+                "Count": 1,
+                "Description": "Plasma and CSF"
+            },
+            {
+                "Label": "Plr fld",
+                "Search": "=system:\"Plr fld\"",
+                "Count": 2
+            },
+            {
+                "Label": "RBC",
+                "Search": "=system:RBC",
+                "Count": 15,
+                "Description": "Erythrocytes"
+            },
+            {
+                "Label": "Respiratory system specimen.lower",
+                "Search": "=system:\"Respiratory system specimen.lower\"",
+                "Count": 1
+            },
+            {
+                "Label": "Ser",
+                "Search": "=system:Ser",
+                "Count": 11,
+                "Description": "Serum"
+            },
+            {
+                "Label": "Ser/Plas",
+                "Search": "=system:Ser/Plas",
+                "Count": 662,
+                "Description": "serum"
+            },
+            {
+                "Label": "Ser/Plas+Plr fld",
+                "Search": "=system:\"Ser/Plas\\+Plr fld\"",
+                "Count": 1
+            },
+            {
+                "Label": "Ser/Plas+Synv fld",
+                "Search": "=system:\"Ser/Plas\\+Synv fld\"",
+                "Count": 1
+            },
+            {
+                "Label": "Ser/Plas/Bld",
+                "Search": "=system:Ser/Plas/Bld",
+                "Count": 6,
+                "Description": "Serum"
+            },
+            {
+                "Label": "Stool",
+                "Search": "=system:Stool",
+                "Count": 6
+            },
+            {
+                "Label": "Synv fld",
+                "Search": "=system:\"Synv fld\"",
+                "Count": 2
+            },
+            {
+                "Label": "TPN",
+                "Search": "=system:TPN",
+                "Count": 1,
+                "Description": "Total Parental Nutrition"
+            },
+            {
+                "Label": "Tiss",
+                "Search": "=system:Tiss",
+                "Count": 2,
+                "Description": "Tissue, unspecified"
+            },
+            {
+                "Label": "Urine",
+                "Search": "=system:Urine",
+                "Count": 111
+            },
+            {
+                "Label": "Urine+Ser/Plas",
+                "Search": "=system:Urine\\+Ser/Plas",
+                "Count": 3
+            },
+            {
+                "Label": "Vitr fld",
+                "Search": "=system:\"Vitr fld\"",
+                "Count": 2
+            },
+            {
+                "Label": "WBC",
+                "Search": "=system:WBC",
+                "Count": 1,
+                "Description": "Leukocytes"
+            },
+            {
+                "Label": "Water",
+                "Search": "=system:Water",
+                "Count": 2
+            },
+            {
+                "Label": "XXX",
+                "Search": "=system:XXX",
+                "Count": 3,
+                "Description": "UNSPECIFIED SPECIMEN"
+            },
+            {
+                "Label": "^Patient",
+                "Search": "=system:\\^Patient",
+                "Count": 21
+            },
+            {
+                "Label": "{Setting}",
+                "Search": "=system:\\{Setting\\}",
+                "Count": 1
+            }
+        ],
+        "Method": [
+            {
+                "Label": "Calculated",
+                "Search": "=method:Calculated",
+                "Count": 8
+            },
+            {
+                "Label": "Estimated",
+                "Search": "=method:Estimated",
+                "Count": 1
+            },
+            {
+                "Label": "Estimated from glycated hemoglobin",
+                "Search": "=method:\"Estimated from glycated hemoglobin\"",
+                "Count": 3
+            },
+            {
+                "Label": "Glock & McLean",
+                "Search": "=method:\"Glock & McLean\"",
+                "Count": 1
+            },
+            {
+                "Label": "Glucometer",
+                "Search": "=method:Glucometer",
+                "Count": 7
+            },
+            {
+                "Label": "Molgen",
+                "Search": "=method:Molgen",
+                "Count": 3,
+                "Description": "Molecular genetics"
+            },
+            {
+                "Label": "PhenX",
+                "Search": "=method:PhenX",
+                "Count": 8
+            },
+            {
+                "Label": "Post hydrolysis",
+                "Search": "=method:\"Post hydrolysis\"",
+                "Count": 1
+            },
+            {
+                "Label": "Probe.amp.tar",
+                "Search": "=method:Probe.amp.tar",
+                "Count": 2,
+                "Description": "Probe with target amplification"
+            },
+            {
+                "Label": "Reported",
+                "Search": "=method:Reported",
+                "Count": 2
+            },
+            {
+                "Label": "Sequencing",
+                "Search": "=method:Sequencing",
+                "Count": 1
+            },
+            {
+                "Label": "Test strip",
+                "Search": "=method:\"Test strip\"",
+                "Count": 42
+            },
+            {
+                "Label": "Test strip manual",
+                "Search": "=method:\"Test strip manual\"",
+                "Count": 1
+            },
+            {
+                "Label": "Test strip.automated",
+                "Search": "=method:\"Test strip.automated\"",
+                "Count": 5
+            },
+            {
+                "Label": "WHO method",
+                "Search": "=method:\"WHO method\"",
+                "Count": 1
+            },
+            {
+                "Label": "{Role}",
+                "Search": "=method:\\{Role\\}",
+                "Count": 1,
+                "Description": "Unspecified Role"
+            }
+        ],
+        "Property": [
+            {
+                "Label": "-",
+                "Search": "=property:\\-",
+                "Count": 44,
+                "Description": "- (panel term)"
+            },
+            {
+                "Label": "ACnc",
+                "Search": "=property:ACnc",
+                "Count": 34,
+                "Description": "Arbitrary Concentration"
+            },
+            {
+                "Label": "CCnc",
+                "Search": "=property:CCnc",
+                "Count": 9,
+                "Description": "Catalytic Concentration"
+            },
+            {
+                "Label": "CCnt",
+                "Search": "=property:CCnt",
+                "Count": 6,
+                "Description": "Catalytic Content"
+            },
+            {
+                "Label": "CRto",
+                "Search": "=property:CRto",
+                "Count": 1,
+                "Description": "Catalytic ratio"
+            },
+            {
+                "Label": "CSub",
+                "Search": "=property:CSub",
+                "Count": 1,
+                "Description": "Catalytic content"
+            },
+            {
+                "Label": "EntCat",
+                "Search": "=property:EntCat",
+                "Count": 1,
+                "Description": "Entitic Catalytic Activity"
+            },
+            {
+                "Label": "Find",
+                "Search": "=property:Find",
+                "Count": 5,
+                "Description": "Finding"
+            },
+            {
+                "Label": "Hx",
+                "Search": "=property:Hx",
+                "Count": 1,
+                "Description": "History"
+            },
+            {
+                "Label": "ID",
+                "Search": "=property:ID",
+                "Count": 4,
+                "Description": "Identifier"
+            },
+            {
+                "Label": "Imp",
+                "Search": "=property:Imp",
+                "Count": 12,
+                "Description": "Impression/interpretation of study"
+            },
+            {
+                "Label": "MCnc",
+                "Search": "=property:MCnc",
+                "Count": 440,
+                "Description": "Mass Concentration"
+            },
+            {
+                "Label": "MFr",
+                "Search": "=property:MFr",
+                "Count": 1,
+                "Description": "Mass fraction"
+            },
+            {
+                "Label": "MRat",
+                "Search": "=property:MRat",
+                "Count": 6,
+                "Description": "Mass Rate"
+            },
+            {
+                "Label": "MRto",
+                "Search": "=property:MRto",
+                "Count": 3,
+                "Description": "Mass Ratio"
+            },
+            {
+                "Label": "MSCnc",
+                "Search": "=property:MSCnc",
+                "Count": 3,
+                "Description": "Mass or Substance Concentration"
+            },
+            {
+                "Label": "Mass",
+                "Search": "=property:Mass",
+                "Count": 2,
+                "Description": "Mass"
+            },
+            {
+                "Label": "NFr",
+                "Search": "=property:NFr",
+                "Count": 4,
+                "Description": "Number Fraction"
+            },
+            {
+                "Label": "Num",
+                "Search": "=property:Num",
+                "Count": 1,
+                "Description": "Number"
+            },
+            {
+                "Label": "PrThr",
+                "Search": "=property:PrThr",
+                "Count": 52,
+                "Description": "Presence or Threshold"
+            },
+            {
+                "Label": "Prid",
+                "Search": "=property:Prid",
+                "Count": 2,
+                "Description": "Presence or Identity"
+            },
+            {
+                "Label": "Ratio",
+                "Search": "=property:Ratio",
+                "Count": 4,
+                "Description": "Ratio"
+            },
+            {
+                "Label": "RelMCnc",
+                "Search": "=property:RelMCnc",
+                "Count": 1,
+                "Description": "Relative Mass Concentration"
+            },
+            {
+                "Label": "SCnc",
+                "Search": "=property:SCnc",
+                "Count": 331,
+                "Description": "Substance Concentration"
+            },
+            {
+                "Label": "SCncDiff",
+                "Search": "=property:SCncDiff",
+                "Count": 11,
+                "Description": "Difference in substance concentration"
+            },
+            {
+                "Label": "SRat",
+                "Search": "=property:SRat",
+                "Count": 3,
+                "Description": "Substance Rate"
+            },
+            {
+                "Label": "SRto",
+                "Search": "=property:SRto",
+                "Count": 3,
+                "Description": "Substance Ratio"
+            },
+            {
+                "Label": "TimeFr",
+                "Search": "=property:TimeFr",
+                "Count": 1,
+                "Description": "Time Fraction"
+            },
+            {
+                "Label": "TmStp",
+                "Search": "=property:TmStp",
+                "Count": 2,
+                "Description": "Time Stamp -- Date and Time"
+            },
+            {
+                "Label": "Txt",
+                "Search": "=property:Txt",
+                "Count": 1,
+                "Description": "Text"
+            },
+            {
+                "Label": "Type",
+                "Search": "=property:Type",
+                "Count": 1,
+                "Description": "Type"
+            },
+            {
+                "Label": "VFr",
+                "Search": "=property:VFr",
+                "Count": 21,
+                "Description": "Volume Fraction"
+            },
+            {
+                "Label": "{Measurement}",
+                "Search": "=property:\\{Measurement\\}",
+                "Count": 13
+            }
+        ],
+        "Timing": [
+            {
+                "Label": "-",
+                "Search": "=timing:\\-",
+                "Count": 23,
+                "Description": "For Claims Attachment"
+            },
+            {
+                "Label": "10H",
+                "Search": "=timing:10H",
+                "Count": 1,
+                "Description": "10 hours"
+            },
+            {
+                "Label": "12H",
+                "Search": "=timing:12H",
+                "Count": 2,
+                "Description": "12 hours"
+            },
+            {
+                "Label": "18H",
+                "Search": "=timing:18H",
+                "Count": 1,
+                "Description": "18 hours"
+            },
+            {
+                "Label": "24H",
+                "Search": "=timing:24H",
+                "Count": 11,
+                "Description": "24 hours"
+            },
+            {
+                "Label": "6H",
+                "Search": "=timing:6H",
+                "Count": 1,
+                "Description": "6 hours"
+            },
+            {
+                "Label": "72H",
+                "Search": "=timing:72H",
+                "Count": 1,
+                "Description": "72 hours"
+            },
+            {
+                "Label": "8H",
+                "Search": "=timing:8H",
+                "Count": 1,
+                "Description": "8 hours"
+            },
+            {
+                "Label": "Pt",
+                "Search": "=timing:Pt",
+                "Count": 969,
+                "Description": "Point in time"
+            },
+            {
+                "Label": "RptPeriod",
+                "Search": "=timing:RptPeriod",
+                "Count": 7,
+                "Description": "Reporting period"
+            },
+            {
+                "Label": "RptPeriod^end",
+                "Search": "=timing:RptPeriod\\^end",
+                "Count": 1,
+                "Description": "Report period end"
+            },
+            {
+                "Label": "RptPeriod^mean",
+                "Search": "=timing:RptPeriod\\^mean",
+                "Count": 2,
+                "Description": "Report period mean"
+            },
+            {
+                "Label": "RptPeriod^start",
+                "Search": "=timing:RptPeriod\\^start",
+                "Count": 1,
+                "Description": "Report period start"
+            },
+            {
+                "Label": "Stdy^mean",
+                "Search": "=timing:Stdy\\^mean",
+                "Count": 1,
+                "Description": "Study mean"
+            },
+            {
+                "Label": "XXX",
+                "Search": "=timing:XXX",
+                "Count": 2,
+                "Description": "Unspecified time"
+            }
+        ],
+        "Scale": [
+            {
+                "Label": "-",
+                "Search": "=scale:\\-",
+                "Count": 43,
+                "Description": "- (panel term)"
+            },
+            {
+                "Label": "Doc",
+                "Search": "=scale:Doc",
+                "Count": 5,
+                "Description": "Documents"
+            },
+            {
+                "Label": "Nar",
+                "Search": "=scale:Nar",
+                "Count": 6,
+                "Description": "Narrative"
+            },
+            {
+                "Label": "Nom",
+                "Search": "=scale:Nom",
+                "Count": 14,
+                "Description": "Nominal (unordered categories)"
+            },
+            {
+                "Label": "Ord",
+                "Search": "=scale:Ord",
+                "Count": 53,
+                "Description": "Ordinal (ordered categories)"
+            },
+            {
+                "Label": "Qn",
+                "Search": "=scale:Qn",
+                "Count": 889,
+                "Description": "Quantitative"
+            },
+            {
+                "Label": "SemiQn",
+                "Search": "=scale:SemiQn",
+                "Count": 14,
+                "Description": "SemiQn"
+            }
+        ],
+        "Class": [
+            {
+                "Label": "CHAL",
+                "Search": "=class:CHAL",
+                "Count": 743,
+                "Description": "Challenge tests"
+            },
+            {
+                "Label": "CHAL.ROUTINE",
+                "Search": "=class:CHAL.ROUTINE",
+                "Count": 17,
+                "Description": "Routine challenge terms"
+            },
+            {
+                "Label": "CHEM",
+                "Search": "=class:CHEM",
+                "Count": 176,
+                "Description": "Chemistry"
+            },
+            {
+                "Label": "CLIN",
+                "Search": "=class:CLIN",
+                "Count": 5,
+                "Description": "Clinical NEC (not elsewhere classified)"
+            },
+            {
+                "Label": "DEVICES",
+                "Search": "=class:DEVICES",
+                "Count": 4,
+                "Description": "Medical devices"
+            },
+            {
+                "Label": "DOC.ADMIN",
+                "Search": "=class:DOC.ADMIN",
+                "Count": 1,
+                "Description": "Administrative documents"
+            },
+            {
+                "Label": "DRUG/TOX",
+                "Search": "=class:DRUG/TOX",
+                "Count": 1,
+                "Description": "Drug levels & Toxicology"
+            },
+            {
+                "Label": "DRUGDOSE",
+                "Search": "=class:DRUGDOSE",
+                "Count": 2,
+                "Description": "Drug dose (for transmitting doses for pharmacokinetics)"
+            },
+            {
+                "Label": "H&P.HX",
+                "Search": "=class:H&P.HX",
+                "Count": 1,
+                "Description": "History"
+            },
+            {
+                "Label": "HEM/BC",
+                "Search": "=class:HEM/BC",
+                "Count": 1,
+                "Description": "Hematology (coagulation) differential count"
+            },
+            {
+                "Label": "LABORDERS.ONTOLOGY",
+                "Search": "=class:LABORDERS.ONTOLOGY",
+                "Count": 13,
+                "Description": "LABORDERS.ONTOLOGY"
+            },
+            {
+                "Label": "MICRO",
+                "Search": "=class:MICRO",
+                "Count": 2,
+                "Description": "Microbiology"
+            },
+            {
+                "Label": "MOLPATH",
+                "Search": "=class:MOLPATH",
+                "Count": 1,
+                "Description": "Molecular pathology"
+            },
+            {
+                "Label": "MOLPATH.MUT",
+                "Search": "=class:MOLPATH.MUT",
+                "Count": 3,
+                "Description": "Gene mutation"
+            },
+            {
+                "Label": "PANEL.CHAL",
+                "Search": "=class:PANEL.CHAL",
+                "Count": 22,
+                "Description": "Challenge order set"
+            },
+            {
+                "Label": "PANEL.CHEM",
+                "Search": "=class:PANEL.CHEM",
+                "Count": 8,
+                "Description": "Chemistry order set"
+            },
+            {
+                "Label": "PANEL.CLIN",
+                "Search": "=class:PANEL.CLIN",
+                "Count": 1,
+                "Description": "Clinical NEC (not elsewhere classified) set"
+            },
+            {
+                "Label": "PANEL.DEVICES",
+                "Search": "=class:PANEL.DEVICES",
+                "Count": 1,
+                "Description": "Medical devices order set"
+            },
+            {
+                "Label": "PANEL.HEDIS",
+                "Search": "=class:PANEL.HEDIS",
+                "Count": 4,
+                "Description": "Healthcare Effectiveness Data and Information Set order set"
+            },
+            {
+                "Label": "PANEL.HEM/BC",
+                "Search": "=class:PANEL.HEM/BC",
+                "Count": 3,
+                "Description": "Hematology & blood count order set"
+            },
+            {
+                "Label": "PANEL.PHENX",
+                "Search": "=class:PANEL.PHENX",
+                "Count": 7,
+                "Description": "PhenX panel"
+            },
+            {
+                "Label": "PHENX",
+                "Search": "=class:PHENX",
+                "Count": 1,
+                "Description": "PhenX"
+            },
+            {
+                "Label": "UA",
+                "Search": "=class:UA",
+                "Count": 7,
+                "Description": "Urinalysis"
+            }
+        ],
+        "VersionFirstReleased": [
+            {
+                "Label": "1.0",
+                "Search": "=versionfirstreleased:1.0",
+                "Count": 105
+            },
+            {
+                "Label": "1.0b",
+                "Search": "=versionfirstreleased:1.0b",
+                "Count": 1
+            },
+            {
+                "Label": "1.0f",
+                "Search": "=versionfirstreleased:1.0f",
+                "Count": 1
+            },
+            {
+                "Label": "1.0g",
+                "Search": "=versionfirstreleased:1.0g",
+                "Count": 1
+            },
+            {
+                "Label": "1.0h(2)",
+                "Search": "=versionfirstreleased:1.0h\\(2\\)",
+                "Count": 20
+            },
+            {
+                "Label": "1.0i",
+                "Search": "=versionfirstreleased:1.0i",
+                "Count": 8
+            },
+            {
+                "Label": "1.0j-a",
+                "Search": "=versionfirstreleased:1.0j\\-a",
+                "Count": 66
+            },
+            {
+                "Label": "1.0k",
+                "Search": "=versionfirstreleased:1.0k",
+                "Count": 43
+            },
+            {
+                "Label": "1.0l",
+                "Search": "=versionfirstreleased:1.0l",
+                "Count": 41
+            },
+            {
+                "Label": "1.0m",
+                "Search": "=versionfirstreleased:1.0m",
+                "Count": 16
+            },
+            {
+                "Label": "1.0n",
+                "Search": "=versionfirstreleased:1.0n",
+                "Count": 1
+            },
+            {
+                "Label": "1.0o",
+                "Search": "=versionfirstreleased:1.0o",
+                "Count": 1
+            },
+            {
+                "Label": "2.00",
+                "Search": "=versionfirstreleased:2.00",
+                "Count": 63
+            },
+            {
+                "Label": "2.03",
+                "Search": "=versionfirstreleased:2.03",
+                "Count": 5
+            },
+            {
+                "Label": "2.04",
+                "Search": "=versionfirstreleased:2.04",
+                "Count": 12
+            },
+            {
+                "Label": "2.07",
+                "Search": "=versionfirstreleased:2.07",
+                "Count": 8
+            },
+            {
+                "Label": "2.08",
+                "Search": "=versionfirstreleased:2.08",
+                "Count": 1
+            },
+            {
+                "Label": "2.09",
+                "Search": "=versionfirstreleased:2.09",
+                "Count": 11
+            },
+            {
+                "Label": "2.10",
+                "Search": "=versionfirstreleased:2.10",
+                "Count": 2
+            },
+            {
+                "Label": "2.11",
+                "Search": "=versionfirstreleased:2.11",
+                "Count": 3
+            },
+            {
+                "Label": "2.13",
+                "Search": "=versionfirstreleased:2.13",
+                "Count": 1
+            },
+            {
+                "Label": "2.15",
+                "Search": "=versionfirstreleased:2.15",
+                "Count": 161
+            },
+            {
+                "Label": "2.16",
+                "Search": "=versionfirstreleased:2.16",
+                "Count": 19
+            },
+            {
+                "Label": "2.17",
+                "Search": "=versionfirstreleased:2.17",
+                "Count": 16
+            },
+            {
+                "Label": "2.19",
+                "Search": "=versionfirstreleased:2.19",
+                "Count": 6
+            },
+            {
+                "Label": "2.21",
+                "Search": "=versionfirstreleased:2.21",
+                "Count": 57
+            },
+            {
+                "Label": "2.22",
+                "Search": "=versionfirstreleased:2.22",
+                "Count": 28
+            },
+            {
+                "Label": "2.24",
+                "Search": "=versionfirstreleased:2.24",
+                "Count": 15
+            },
+            {
+                "Label": "2.26",
+                "Search": "=versionfirstreleased:2.26",
+                "Count": 15
+            },
+            {
+                "Label": "2.27",
+                "Search": "=versionfirstreleased:2.27",
+                "Count": 75
+            },
+            {
+                "Label": "2.29",
+                "Search": "=versionfirstreleased:2.29",
+                "Count": 14
+            },
+            {
+                "Label": "2.32",
+                "Search": "=versionfirstreleased:2.32",
+                "Count": 47
+            },
+            {
+                "Label": "2.34",
+                "Search": "=versionfirstreleased:2.34",
+                "Count": 1
+            },
+            {
+                "Label": "2.36",
+                "Search": "=versionfirstreleased:2.36",
+                "Count": 13
+            },
+            {
+                "Label": "2.40",
+                "Search": "=versionfirstreleased:2.40",
+                "Count": 6
+            },
+            {
+                "Label": "2.42",
+                "Search": "=versionfirstreleased:2.42",
+                "Count": 7
+            },
+            {
+                "Label": "2.44",
+                "Search": "=versionfirstreleased:2.44",
+                "Count": 5
+            },
+            {
+                "Label": "2.46",
+                "Search": "=versionfirstreleased:2.46",
+                "Count": 4
+            },
+            {
+                "Label": "2.48",
+                "Search": "=versionfirstreleased:2.48",
+                "Count": 6
+            },
+            {
+                "Label": "2.50",
+                "Search": "=versionfirstreleased:2.50",
+                "Count": 3
+            },
+            {
+                "Label": "2.52",
+                "Search": "=versionfirstreleased:2.52",
+                "Count": 9
+            },
+            {
+                "Label": "2.54",
+                "Search": "=versionfirstreleased:2.54",
+                "Count": 8
+            },
+            {
+                "Label": "2.56",
+                "Search": "=versionfirstreleased:2.56",
+                "Count": 4
+            },
+            {
+                "Label": "2.63",
+                "Search": "=versionfirstreleased:2.63",
+                "Count": 2
+            },
+            {
+                "Label": "2.64",
+                "Search": "=versionfirstreleased:2.64",
+                "Count": 1
+            },
+            {
+                "Label": "2.65",
+                "Search": "=versionfirstreleased:2.65",
+                "Count": 1
+            },
+            {
+                "Label": "2.66",
+                "Search": "=versionfirstreleased:2.66",
+                "Count": 9
+            },
+            {
+                "Label": "2.67",
+                "Search": "=versionfirstreleased:2.67",
+                "Count": 2
+            },
+            {
+                "Label": "2.68",
+                "Search": "=versionfirstreleased:2.68",
+                "Count": 12
+            },
+            {
+                "Label": "2.69",
+                "Search": "=versionfirstreleased:2.69",
+                "Count": 3
+            },
+            {
+                "Label": "2.70",
+                "Search": "=versionfirstreleased:2.70",
+                "Count": 12
+            },
+            {
+                "Label": "2.72",
+                "Search": "=versionfirstreleased:2.72",
+                "Count": 2
+            },
+            {
+                "Label": "2.73",
+                "Search": "=versionfirstreleased:2.73",
+                "Count": 1
+            },
+            {
+                "Label": "2.74",
+                "Search": "=versionfirstreleased:2.74",
+                "Count": 4
+            },
+            {
+                "Label": "2.75",
+                "Search": "=versionfirstreleased:2.75",
+                "Count": 11
+            },
+            {
+                "Label": "2.78",
+                "Search": "=versionfirstreleased:2.78",
+                "Count": 14
+            },
+            {
+                "Label": "2.79",
+                "Search": "=versionfirstreleased:2.79",
+                "Count": 5
+            },
+            {
+                "Label": "2.81",
+                "Search": "=versionfirstreleased:2.81",
+                "Count": 15
+            },
+            {
+                "Label": "2.82",
+                "Search": "=versionfirstreleased:2.82",
+                "Count": 1
+            }
+        ],
+        "VersionLastChanged": [
+            {
+                "Label": "2.13",
+                "Search": "=versionlastchanged:2.13",
+                "Count": 1
+            },
+            {
+                "Label": "2.15",
+                "Search": "=versionlastchanged:2.15",
+                "Count": 1
+            },
+            {
+                "Label": "2.21",
+                "Search": "=versionlastchanged:2.21",
+                "Count": 1
+            },
+            {
+                "Label": "2.26",
+                "Search": "=versionlastchanged:2.26",
+                "Count": 3
+            },
+            {
+                "Label": "2.27",
+                "Search": "=versionlastchanged:2.27",
+                "Count": 1
+            },
+            {
+                "Label": "2.29",
+                "Search": "=versionlastchanged:2.29",
+                "Count": 2
+            },
+            {
+                "Label": "2.34",
+                "Search": "=versionlastchanged:2.34",
+                "Count": 106
+            },
+            {
+                "Label": "2.36",
+                "Search": "=versionlastchanged:2.36",
+                "Count": 10
+            },
+            {
+                "Label": "2.40",
+                "Search": "=versionlastchanged:2.40",
+                "Count": 14
+            },
+            {
+                "Label": "2.42",
+                "Search": "=versionlastchanged:2.42",
+                "Count": 37
+            },
+            {
+                "Label": "2.44",
+                "Search": "=versionlastchanged:2.44",
+                "Count": 7
+            },
+            {
+                "Label": "2.46",
+                "Search": "=versionlastchanged:2.46",
+                "Count": 4
+            },
+            {
+                "Label": "2.48",
+                "Search": "=versionlastchanged:2.48",
+                "Count": 6
+            },
+            {
+                "Label": "2.50",
+                "Search": "=versionlastchanged:2.50",
+                "Count": 6
+            },
+            {
+                "Label": "2.52",
+                "Search": "=versionlastchanged:2.52",
+                "Count": 6
+            },
+            {
+                "Label": "2.54",
+                "Search": "=versionlastchanged:2.54",
+                "Count": 9
+            },
+            {
+                "Label": "2.56",
+                "Search": "=versionlastchanged:2.56",
+                "Count": 19
+            },
+            {
+                "Label": "2.63",
+                "Search": "=versionlastchanged:2.63",
+                "Count": 1
+            },
+            {
+                "Label": "2.64",
+                "Search": "=versionlastchanged:2.64",
+                "Count": 1
+            },
+            {
+                "Label": "2.65",
+                "Search": "=versionlastchanged:2.65",
+                "Count": 1
+            },
+            {
+                "Label": "2.66",
+                "Search": "=versionlastchanged:2.66",
+                "Count": 10
+            },
+            {
+                "Label": "2.67",
+                "Search": "=versionlastchanged:2.67",
+                "Count": 5
+            },
+            {
+                "Label": "2.68",
+                "Search": "=versionlastchanged:2.68",
+                "Count": 18
+            },
+            {
+                "Label": "2.69",
+                "Search": "=versionlastchanged:2.69",
+                "Count": 9
+            },
+            {
+                "Label": "2.70",
+                "Search": "=versionlastchanged:2.70",
+                "Count": 384
+            },
+            {
+                "Label": "2.72",
+                "Search": "=versionlastchanged:2.72",
+                "Count": 4
+            },
+            {
+                "Label": "2.73",
+                "Search": "=versionlastchanged:2.73",
+                "Count": 258
+            },
+            {
+                "Label": "2.75",
+                "Search": "=versionlastchanged:2.75",
+                "Count": 24
+            },
+            {
+                "Label": "2.76",
+                "Search": "=versionlastchanged:2.76",
+                "Count": 3
+            },
+            {
+                "Label": "2.77",
+                "Search": "=versionlastchanged:2.77",
+                "Count": 32
+            },
+            {
+                "Label": "2.78",
+                "Search": "=versionlastchanged:2.78",
+                "Count": 6
+            },
+            {
+                "Label": "2.79",
+                "Search": "=versionlastchanged:2.79",
+                "Count": 8
+            },
+            {
+                "Label": "2.81",
+                "Search": "=versionlastchanged:2.81",
+                "Count": 19
+            },
+            {
+                "Label": "2.82",
+                "Search": "=versionlastchanged:2.82",
+                "Count": 8
+            }
+        ],
+        "Tags": [
+            {
+                "Label": "Cardiology",
+                "Search": "=tags:Cardiology",
+                "Count": 3
+            },
+            {
+                "Label": "Endocrinology",
+                "Search": "=tags:Endocrinology",
+                "Count": 596
+            },
+            {
+                "Label": "Genetics",
+                "Search": "=tags:Genetics",
+                "Count": 4
+            },
+            {
+                "Label": "Hematology",
+                "Search": "=tags:Hematology",
+                "Count": 15
+            },
+            {
+                "Label": "InfectiousDisease",
+                "Search": "=tags:InfectiousDisease",
+                "Count": 2
+            },
+            {
+                "Label": "LimitedUseLabOrders",
+                "Search": "=tags:LimitedUseLabOrders",
+                "Count": 4
+            },
+            {
+                "Label": "Nephrology",
+                "Search": "=tags:Nephrology",
+                "Count": 2
+            },
+            {
+                "Label": "Neurology",
+                "Search": "=tags:Neurology",
+                "Count": 6
+            },
+            {
+                "Label": "ObGyn",
+                "Search": "=tags:ObGyn",
+                "Count": 2
+            },
+            {
+                "Label": "Pulmonology",
+                "Search": "=tags:Pulmonology",
+                "Count": 1
+            },
+            {
+                "Label": "UniversalLabOrders",
+                "Search": "=tags:UniversalLabOrders",
+                "Count": 25
+            }
+        ],
+        "ClassType": [
+            {
+                "Label": "Clinical",
+                "Search": "=classtype:Clinical",
+                "Count": 21
+            },
+            {
+                "Label": "Lab",
+                "Search": "=classtype:Lab",
+                "Count": 1003
+            }
+        ],
+        "OrderObs": [
+            {
+                "Label": "Both",
+                "Search": "=orderobs:Both",
+                "Count": 331
+            },
+            {
+                "Label": "Observation",
+                "Search": "=orderobs:Observation",
+                "Count": 625
+            },
+            {
+                "Label": "Order",
+                "Search": "=orderobs:Order",
+                "Count": 47
+            },
+            {
+                "Label": "Subset",
+                "Search": "=orderobs:Subset",
+                "Count": 1
+            }
+        ],
+        "PanelType": [
+            {
+                "Label": "Convenience group",
+                "Search": "=paneltype:\"Convenience group\"",
+                "Count": 4
+            },
+            {
+                "Label": "Panel",
+                "Search": "=paneltype:Panel",
+                "Count": 39
+            }
+        ],
+        "HL7AttachmentStructure": [
+            {
+                "Label": "NoIGexists",
+                "Search": "=hl7attachmentstructure:NoIGexists",
+                "Count": 1
+            }
+        ],
+        "CodeSystems": [
+            {
+                "Label": "https://www.phenxtoolkit.org",
+                "Search": "=codesystems:https\\://www.phenxtoolkit.org",
+                "Count": 6
+            },
+            {
+                "Label": "urn:iso:std:iso:11073:10101",
+                "Search": "=codesystems:urn\\:iso\\:std\\:iso\\:11073\\:10101",
+                "Count": 12
+            }
+        ],
+        "Status": [
+            {
+                "Label": "ACTIVE",
+                "Search": "=status:ACTIVE",
+                "Count": 982
+            },
+            {
+                "Label": "DEPRECATED",
+                "Search": "=status:DEPRECATED",
+                "Count": 18
+            },
+            {
+                "Label": "DISCOURAGED",
+                "Search": "=status:DISCOURAGED",
+                "Count": 10
+            },
+            {
+                "Label": "TRIAL",
+                "Search": "=status:TRIAL",
+                "Count": 14
+            }
+        ]
+    }
+}
