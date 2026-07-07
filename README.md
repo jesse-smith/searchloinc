@@ -2,7 +2,9 @@
 
 A thin [MCP](https://modelcontextprotocol.io) server wrapping the
 [LOINC Search API](https://loinc.org/kb/api/search-api/) so LLMs can search LOINC the same
-way a human does via [loinc.org/search](https://loinc.org/search/).
+way a human does via [loinc.org/search](https://loinc.org/search/) — free-text,
+relevance-ranked, faceted. It targets the documented Search API
+(`https://loinc.regenstrief.org/searchapi/`), **not** the FHIR terminology service.
 
 ## Setup
 
@@ -14,7 +16,65 @@ cp .env.example .env   # then fill in your LOINC credentials
 Credentials come from a free registration on [loinc.org](https://loinc.org). Set
 `LOINC_USERNAME` and `LOINC_PASSWORD` in the environment (never commit them).
 
+## Run
+
+```bash
+uv run python -m searchloinc
+```
+
+Runs the server over **stdio** (the transport MCP clients expect). Point your client at that
+command, or add it to your client's MCP server config.
+
+## Tools
+
+Two-tier design — cheap compact **search** for triage, explicit **drill-in** for detail:
+
+- `search_loincs` — LOINC terms (lab tests, vitals, measurements, panels, surveys). The main table.
+- `search_answerlists` — enumerated answer sets attached to survey/nominal terms.
+- `search_parts` — the LP-coded building blocks (components, systems, methods, properties).
+- `search_groups` — curated collections of related terms.
+- `get_loinc(code)` — drill into one term by exact code; returns the full flat record.
+
+Each search tool takes `query` (required), `rows`, `offset`, `sortorder`, `language`, and
+`include_facets`. Pick the scope that matches what you're after; results are
+relevance-ranked, so if the top hits miss, **reformulate rather than deep-page**. Triage with
+a search tool, then `get_loinc` the code you want.
+
+## Output shape
+
+Search responses are a JSON **envelope** plus a result **table**:
+
+- The table is serialized as [TOON](https://pypi.org/project/toon-format/) — a compact tabular
+  format that pays the column-name cost once, so wide uniform tables stay small. Columns are
+  fixed per scope; empty fields render as `""` to preserve row uniformity. Tab-delimited
+  (LOINC display values contain commas but never tabs).
+- The envelope reports `requested`, `returned`, `total`, `offset`, and `truncated`.
+
+**Character budget & pagination.** The whole serialized payload is capped at **9500 characters**
+(a cushion under the ~10K downstream tool-result limit). The row-packing loop encodes and
+measures the full payload incrementally and stops before the cap; when results don't all fit,
+`truncated` is `true` — page forward with `offset`. `include_facets` (filter counts) is **off by
+default** and opt-in; facet payloads still respect the budget.
+
+`get_loinc` returns a single JSON object — the flat search-API record with null/empty fields
+dropped (always keeping `Link`), so the field set adapts to the term type. Page-only content
+(part `LP` hierarchy, language variants, curated part descriptions) is **not** in the flat
+record — follow `Link` to loinc.org for it.
+
+There is a debug-only raw-JSON path toggled by the `SEARCHLOINC_RAW_JSON` env var; it is never
+exposed as an agent-facing tool parameter.
+
+## Development
+
+```bash
+uv run ruff check searchloinc   # lint
+uv run pytest                   # tests (no network; API stubbed with fixtures)
+```
+
+The [`/loinc-search`](.claude/skills/loinc-search/SKILL.md) skill drives the live API to
+validate wrapper output against ground truth.
+
 ## Status
 
-Early scaffold. The server wraps four scoped endpoints — `/loincs`, `/answerlists`,
-`/parts`, `/groups` — one MCP tool each. Intended to eventually run as a Databricks app.
+Wrapper is implemented and validated against the live API. Eventual deployment target is a
+Databricks app (credentials via secret scope, inference via AI Gateway).

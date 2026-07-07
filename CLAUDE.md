@@ -27,10 +27,26 @@ reproduce the UI's free-text relevance ranking.
 
 ## Development
 
-- `uv sync` to install; `uv run <cmd>` to run inside the project venv (do not use system `python3`).
-- Run the server: `uv run python -m searchloinc` (adjust to actual module once created).
+- `uv sync` to install (`--extra dev` for ruff/pytest); `uv run <cmd>` to run inside the
+  project venv (do not use system `python3`). `toon-format` is a prerelease pin (`>=0.9.0b1`).
+- Run the server: `uv run python -m searchloinc` (stdio transport).
 - Test a live query end-to-end with the `/loinc-search` skill before trusting wrapper output.
-- Format/lint with `ruff` (via `uv run ruff format` / `uv run ruff check`).
+- Format/lint with `ruff` (via `uv run ruff format` / `uv run ruff check`). Note: a save hook
+  runs `ruff --fix`, which strips not-yet-used imports — add an import in the same edit as its
+  first use, or it vanishes before you reference it.
+
+## Module map
+
+Thin layered wrapper (`searchloinc/`):
+
+- `config.py` — static config: API base URL, `CHAR_BUDGET` (9500), TOON delimiter (tab),
+  per-scope compact column sets, facet-summarization knobs, raw-JSON debug env flag.
+- `client.py` — async httpx client; Basic auth from env; one `search(scope, ...)` per scope;
+  surfaces non-2xx as `LoincAPIError` (creds never logged).
+- `render.py` — the core mechanism: `to_compact_rows` (uniform projection), `encode_table`
+  (TOON), `pack_to_budget` (char-budgeted packing), `summarize_facets`, `drop_empty_fields`.
+- `server.py` — FastMCP surface: four `search_*` tools + `get_loinc` detail verb.
+- `__main__.py` — `python -m searchloinc` runs the stdio server.
 
 ## Conventions
 
