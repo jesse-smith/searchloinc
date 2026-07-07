@@ -18,6 +18,9 @@ dev = [
     "pytest>=8.0",
 ]
 
+[project.scripts]
+searchloinc = "searchloinc.__main__:main"
+
 [tool.ruff]
 line-length = 100
 target-version = "py310"

@@ -6,8 +6,6 @@
         "run",
         "--env-file",
         ".env",
-        "python",
-        "-m",
         "searchloinc"
       ]
     }
