@@ -78,3 +78,16 @@ validate wrapper output against ground truth.
 
 Wrapper is implemented and validated against the live API. Eventual deployment target is a
 Databricks app (credentials via secret scope, inference via AI Gateway).
+
+## License & attribution
+
+The SearchLOINC code is licensed under the [MIT License](LICENSE).
+
+This project wraps the LOINC Search API and includes sample LOINC API responses as test
+fixtures. That LOINC (and referenced SNOMED CT) content is **not** covered by the MIT license
+and remains under its own terms — see [NOTICE](NOTICE) for the required attributions.
+
+> This material contains content from LOINC (http://loinc.org). LOINC is copyright © Regenstrief
+> Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is
+> available at no cost under the license at http://loinc.org/license. LOINC® is a registered
+> United States trademark of Regenstrief Institute, Inc.

@@ -4,8 +4,6 @@
       "command": "uv",
       "args": [
         "run",
-        "--directory",
-        "/Users/jsmith79/Documents/Projects/Tools/SearchLOINC",
         "--env-file",
         ".env",
         "python",

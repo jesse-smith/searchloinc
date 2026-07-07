@@ -1,0 +1,36 @@
+SearchLOINC — attribution notices
+==================================
+
+The SearchLOINC source code (the `searchloinc/` package, tests, and configuration)
+is original work licensed under the MIT License; see LICENSE.
+
+This project wraps and redistributes third-party terminology content that is NOT
+covered by the MIT License and remains under its own license. The MIT License
+applies only to this project's own code.
+
+
+LOINC
+-----
+
+This material contains content from LOINC (http://loinc.org). LOINC is copyright
+© Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and
+Codes (LOINC) Committee and is available at no cost under the license at
+http://loinc.org/license. LOINC® is a registered United States trademark of
+Regenstrief Institute, Inc.
+
+LOINC content is reached at runtime via the LOINC Search API, and sample LOINC
+API responses are included verbatim as test fixtures under `tests/fixtures/`.
+LOINC field names and contents in those fixtures are unaltered, as the LOINC
+license requires.
+
+
+SNOMED CT
+---------
+
+Some LOINC records reference SNOMED Clinical Terms® (SNOMED CT®), and the LOINC
+API responses captured in `tests/fixtures/` therefore include SNOMED CT copyright
+notices verbatim. SNOMED CT is used by permission of the International Health
+Terminology Standards Development Organisation (IHTSDO) under license; all rights
+reserved. "SNOMED" and "SNOMED CT" are registered trademarks of the IHTSDO. Use
+of SNOMED CT content is subject to a SNOMED CT Affiliate License Agreement; see
+http://www.snomed.org/snomed-ct/get-snomed-ct.
