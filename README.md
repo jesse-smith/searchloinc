@@ -18,12 +18,40 @@ Credentials come from a free registration on [loinc.org](https://loinc.org). Set
 
 ## Run
 
+From a checkout (development):
+
 ```bash
 uv run python -m searchloinc
 ```
 
-Runs the server over **stdio** (the transport MCP clients expect). Point your client at that
-command, or add it to your client's MCP server config.
+Or install it as a standalone command and run it from anywhere:
+
+```bash
+uv tool install .          # puts a `searchloinc` executable on PATH
+searchloinc                # starts the stdio server
+```
+
+Both run the server over **stdio** (the transport MCP clients expect). Point your client at
+the command, or add it to your client's MCP server config. When you use the installed command,
+supply credentials through the client's `env` block (sourced from your secret store / shell —
+never committed):
+
+```json
+{
+  "mcpServers": {
+    "searchloinc": {
+      "command": "searchloinc",
+      "env": {
+        "LOINC_USERNAME": "your-loinc-username",
+        "LOINC_PASSWORD": "your-loinc-password"
+      }
+    }
+  }
+}
+```
+
+The checked-in [`.mcp.json`](.mcp.json) uses the dev form (`uv run --env-file .env`) so a local
+checkout picks up credentials from `.env` automatically.
 
 ## Tools
 

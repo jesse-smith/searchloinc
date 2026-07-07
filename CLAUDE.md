@@ -29,7 +29,10 @@ reproduce the UI's free-text relevance ranking.
 
 - `uv sync` to install (`--extra dev` for ruff/pytest); `uv run <cmd>` to run inside the
   project venv (do not use system `python3`). `toon-format` is a prerelease pin (`>=0.9.0b1`).
-- Run the server: `uv run python -m searchloinc` (stdio transport).
+- Run the server: `uv run python -m searchloinc` (stdio transport). Or install it as a
+  standalone command with `uv tool install .` and run `searchloinc` (same stdio server via the
+  `[project.scripts]` entry point → `searchloinc.__main__:main`); pass creds through the MCP
+  client's `env` block, since the installed command has no `--env-file`.
 - Test a live query end-to-end with the `/loinc-search` skill before trusting wrapper output.
 - Format/lint with `ruff` (via `uv run ruff format` / `uv run ruff check`). Note: a save hook
   runs `ruff --fix`, which strips not-yet-used imports — add an import in the same edit as its
@@ -46,7 +49,8 @@ Thin layered wrapper (`searchloinc/`):
 - `render.py` — the core mechanism: `to_compact_rows` (uniform projection), `encode_table`
   (TOON), `pack_to_budget` (char-budgeted packing), `summarize_facets`, `drop_empty_fields`.
 - `server.py` — FastMCP surface: four `search_*` tools + `get_loinc` detail verb.
-- `__main__.py` — `python -m searchloinc` runs the stdio server.
+- `__main__.py` — `main()` runs the stdio server; reached via `python -m searchloinc` and via
+  the `searchloinc` console script (`[project.scripts]` in `pyproject.toml`).
 
 ## Conventions
 
